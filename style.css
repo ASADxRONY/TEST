@@ -3,18 +3,21 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: 'Zilla Slab', serif;
 }
 header{
     background-image: url(image/header-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top:100px;
-    min-height: 850px;
+    min-height: 700px;
+    
+    
 
     
 }
 .container{
-    max-width: 80%;
+    max-width: 100%;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -24,29 +27,73 @@ header .img{
     width: 40%;
 }
 header .img img{
-    width: 100%;
+    width: 80%;
 }
 header .text{
     width:50%;
     
 }
-.text h1{
+h1{
     font-size:30px;
-    color: #ff06ff
+    color: #ff00aa
 }
 .text h2{
     font-size: 26px;
     
 }
+p{
+    color: rgb(32, 32, 32);
+    margin-bottom: 40px;
+}
 .anchor-button{
     text-decoration: none;
     background:linear-gradient(45deg, lightsalmon ,tomato );
-    padding:10px 20px;
+    padding:10px 40px;
     border-radius: 5px;
     color:white;
     font-weight:bold;
     display: block;
-    
+    width: 155px;
+    height: 40px;
 
 }
 
+section{
+    background-image:url(./Image/biography-bg.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:100px;
+    min-height: 700px;
+    
+}
+.dream{
+    max-width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.button{
+    text-decoration: none;
+    background:linear-gradient(45deg, lightsalmon ,tomato );
+    padding:10px 40px;
+    border-radius: 5px;
+    color:white;
+    font-weight:bold;
+    display: block;
+    width: 250px;
+    height: 40px;
+}
+section .img-one{
+    width: 40%;
+    border: 20px;
+    
+}
+section .img-one img{
+    width: 80%;
+}
+section .text-one{
+    width:30%;
+    
+}
