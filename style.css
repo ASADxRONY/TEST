@@ -24,13 +24,15 @@ header{
     margin: 0px auto;
 }
 header .img{
-    width: 40%;
+    width: 60%;
+    padding-left:250px;
 }
 header .img img{
     width: 80%;
 }
 header .text{
-    width:50%;
+    width:30%;
+    padding-left:100px;
     
 }
 h1{
@@ -86,8 +88,8 @@ section{
     height: 40px;
 }
 section .img-one{
-    width: 40%;
-    border: 20px;
+    width: 50%;
+    padding-right:150px;
     
 }
 section .img-one img{
@@ -96,4 +98,25 @@ section .img-one img{
 section .text-one{
     width:30%;
     
+}
+
+
+.last-part{
+    display:block;
+    align-items: stretch;
+    justify-content: center;
+}
+
+
+div .img-two img{
+    width: 21%;
+    padding: 5px 5px ;
+    margin-left: 125px;
+    
+
+}
+div .text-two{
+    text-align:center;
+    padding:25px;
+
 }
